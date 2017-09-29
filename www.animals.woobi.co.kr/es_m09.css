@@ -1,0 +1,122 @@
+﻿
+body {
+      width:1004px;
+	  margin:0px auto;
+	  background-color:#f2f2f2;
+	  color:gray;
+	  font-family:NanumGothic;
+	 
+	  }
+@font-face {
+      font-family:NanumGothic;
+      src:url('NanumGothic.woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Home 설문 slider styles 시작 */
+
+.main_img {position:relative;
+		   height:613px;
+		   background-image:url('img_home/mouse_door.png');
+		   }
+
+    .survey_t {position:absolute;
+               top:60%;
+               left:50%;
+               transform:translate(-50%,0%);
+    		   width:480px;
+    		   color:white;
+    		   font-size:17px;
+      		   font-weight:bold;
+               text-align:justify;
+    		   text-shadow:1px 1px 1px #333;
+			   }
+
+        .survey_span {font-size:28px}
+
+    .survey {position:absolute;
+    		 top:83%;
+    		 left:50%;
+    		 transform:translate(-50%,0);
+    		 text-align:center;
+    		 width:830px;
+			 }
+
+
+
+    	   	/* 설문 5단계 간격 조정하기  */
+
+
+    			/* survey width:845xp 변경후 적용하기 (변경전:width:830px)
+
+         		.range_spacing_845 {color:white;
+                    				font-size:12px;
+                    				word-spacing:165px;
+                    				margin-top:3px;
+									}
+
+               */
+
+
+    		   .range_spacing_830 {width:200px;
+                                   display:inline-block;
+    					           text-align:left;
+                    			   color:white;
+                    			   font-size:12px;
+								   }
+
+              			.w_100 {width:100px;}
+              			.right {text-align:right;
+              			        width:126px;
+								}
+
+
+
+    			/* range 속성 styles */
+
+    	.slider {-webkit-appearance:none;  /*크롬 기본 속성 none*/
+        		 background-image:url('track.png');
+        		 width:800px;
+        		 margin-left:15px;
+        		 height:7px;
+        		 border-radius:10px;
+        		 outline:none;
+        		 box-shadow:1px 1px 1px #333;
+				 }
+
+
+
+    	.slider::-webkit-slider-thumb {
+        	    -webkit-appearance:none;
+        		width: 20px;
+        		height: 20px;
+        		box-shadow:1px 1px 1px black;
+        		background:#f0f0f0;
+        		border-radius:3px;
+        		cursor: pointer;
+				}
+
+    	.button_survey {color:#333;
+                        width:70px;
+           			    background-color:#e6e6e6;
+           				border-color:#8c8c8c;
+           				font-size:14px;
+           				font-weight:bold;
+           				border:0px;
+           				padding:4px 8px;
+           				border-radius:2px;
+           				outline:none;
+						}
+							
+    		.button_survey:hover {background-color:white;}
+
+/* Home 설문 slider styles 끝 */

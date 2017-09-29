@@ -1,0 +1,202 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" href="ea_m.css">
+
+
+
+
+
+
+</head>
+<body>
+<header>
+<div class="logo">
+<img src="logo.png" >
+</div>
+</header>
+<nav>
+<a href="index.html" title="Home" class="button">Home</a>
+<a href="History.html" title="History" class="button">History</a>
+<a href="Animals.html" title="Animals" class="button_b">Animals</a>
+<a href="Solutions.html" title="Solutions" class="button">Solutions</a>
+</nav>
+<p class="p11">Home > Animals > Dog</p>
+
+<div class="bar_bg">
+<a href="Animals.html"><img class="animals_padding" src="mouse_white.png"></a><a href="rabbit.html"><img class="animals_padding" src="rabbit_white.png"></a><a href="dog.html"><img class="animals_padding" src="img_dog/Dog_blue.png"></a><a href="monkey.html"><img class="animals_padding" src="monkey_white.png"></a>
+</div>
+
+<div class="bgw60 align_c">
+<p class="p1">개 (Dog)</p>
+<img src="img_dog/dog_big.png">
+</div>
+
+<div class="bgw60">
+	
+	
+	<div class="float-l align_c">
+	<img src="spec_1.png">
+	<p class="p12">38℃~39℃</p>
+	<p >체온</p>
+	</div>
+
+	<div class="float-l align_c">
+	<img src="spec_2.png">
+	<p class="p12">10~30kg</p>
+	<p>무게</p>
+	</div>
+	
+	<div class="float-l align_c">
+	<img src="spec_3.png">
+	<p class="p12">60~120회/분</p>
+	<p>심장박동</p>
+	</div>
+
+	<div class="float-l align_c">
+	<img src="spec_4.png">
+	<p class="p12">10~30회/분</p>
+	<p>호흡수</p>
+	</div>
+	
+	<div class="float-l align_c">
+	<img src="spec_5.png">
+	<p class="p12">12~15년</p>
+	<p>수명</p>
+	</div>
+
+	
+
+</div>
+<div class="bgw60 padding0">
+<p class="p2 w250">17세기 이후 생리학, 약학, 외과학의 실습에 주로
+사용심장연구와 정형외과의 골격실습 모델로서 사용, 대체로 온순하며 기질이 평온함
+</p>
+</div>
+
+<div class="bgw60">
+	<p class="p1">한 해 개가 실험에 사용되는 수</p>
+	<div class="round">
+	<p class="p3">1만<span class="span1">마리</span></p>
+	</div>
+</div>
+
+
+<img src="img_dog/ex_dog.png">
+<div class="bgw60">
+	<p class="p1">현 실험 실태</p>
+</div>
+
+<!-- Slideshow 시작-->
+
+<div class="dog_positon">
+
+	<img class="dogSlides" src="img_dog/dog_act.png">
+	<img class="dogSlides" src="img_dog/dog_act2.png">
+	<img class="dogSlides" src="img_dog/dog_act3.png">
+	<img class="dogSlides" src="img_dog/dog_act4.png">
+	<img class="dogSlides" src="img_dog/dog_act5.png">
+	<img class="dogSlides" src="img_dog/dog_act6.png">
+    
+	<a class="dog-arrow arrow-left" onclick="plusDivs(-1)"><img src="arrow_left.png"></a>
+	<a class="dog-arrow arrow-right"  onclick="plusDivs(1)"><img src="arrow_right.png"></a>
+    
+	<div class="circle_position">
+		<button class="circleC circle_button" onclick="currentDiv(1)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(2)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(3)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(4)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(5)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(6)"></button>
+	</div>
+
+</div>
+
+
+
+<!--Slideshow 끝-->
+
+<div class="bgw60">
+<p class="p2 w390"><span class="span2">개 실험 중 94%가 '비글'이다. 그 이유는 사람을 잘 따르고, 반항하지 않는 특성 때문</span>
+비글은 한 평생 독성실험, 척추수술, 치아수술 등 실험에 쓰이고 <span class="span2">안락사로 생을 마감</span>한다.
+
+</p>
+</div>
+
+
+
+<div class="bgw60">
+	<p class="p1">개가 실험에 쓰이는 이유</p>
+	
+	<div class="float-l">
+	<img class="img_padding" src="img_dog/d1.png">
+	</div>
+	<div class="float-l box_padding">
+	<p class="p13">번식 능력</p>
+	<p class="w240">번식력이 우수하고 취급이 용이하다.</p>
+	</div>
+	
+	<div class="float-l">
+	<img class="img_padding" src="img_dog/d2.png">
+	</div>
+	<div class="float-l box_padding">
+	<p class="p13">사육에 용이</p>
+	<p class="w240">사육관리가 용이하며 다수의 동물을 
+	일시에 사용할 수 있어 통계적 결론을 얻어내는 것이 가능</p>
+	</div>
+	
+</div>
+
+
+	
+<footer>
+ <p class="p9">Copyright K.Y.J Design All Rights Reserved.
+ </p>
+ <p class="p10">ECopyright K.Y.J 
+ </p>
+</footer> 
+
+<script>
+
+<!-- Slideshow 시작-->
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("dogSlides");
+  var dots = document.getElementsByClassName("circleC");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" circle_blue", "");
+  }
+  
+  
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " circle_blue";
+}
+
+ <!-- Slideshow 끝-->
+
+
+</script>
+
+
+</body>
+
+
+
+</html>

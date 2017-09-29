@@ -1,0 +1,138 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" href="ea_m.css">
+
+</head>
+<body>
+<header>
+<div class="logo">
+<img src="logo.png" >
+</div>
+</header>
+<nav>
+<a href="index.html" title="Home" class="button">Home</a>
+<a href="History.html" title="History" class="button">History</a>
+<a href="Animals.html" title="Animals" class="button">Animals</a>
+<a href="Solutions.html" title="Solutions" class="button_b">Solutions</a>
+</nav>
+<p class="p11">Home > Solution</p>
+<div class="bgw60">
+<p class="p1">동물실험이 멈추지 못하는 이유</p>
+</div>
+
+
+
+
+
+<!-- Slideshow 시작-->
+
+<div class="s_positon">
+
+	<img class="dogSlides" src="img_solution/because_1.png">
+	<img class="dogSlides" src="img_solution/because_2.png">
+	<img class="dogSlides" src="img_solution/because_3.png">
+	<img class="dogSlides" src="img_solution/because_4.png">
+	
+	
+    
+	<a class="dog-arrow arrow-left" onclick="plusDivs(-1)"><img src="arrow_left.png"></a>
+	<a class="dog-arrow arrow-right"  onclick="plusDivs(1)"><img src="arrow_right.png"></a>
+    
+	<div class="circle_position">
+		<button class="circleC circle_button" onclick="currentDiv(1)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(2)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(3)"></button>
+		<button class="circleC circle_button" onclick="currentDiv(4)"></button>
+		
+		
+	</div>
+
+</div>
+
+
+
+<!--Slideshow 끝-->
+
+
+<div class="bgw60">
+<p class="p1 font50">하지만,</p>
+</div>
+<div class="bgw60">
+<p class="p1">동물과 인간이 공유하는 질병의 치수</p>
+	<div class="round">
+	<p class="p3">1%</p>
+	</div>
+<p class="p2 w650">실제로 인간이 가진 <span class="span2">약 30,000가지</span>의 병들 중 동물과 공유하는 <span class="span2">질병은 약 '350가지뿐'</span></p>
+
+</div>
+
+<div class="bgw60 align_c">
+<img src="img_solution/but.png">
+</div>
+
+
+<div class="bgw60">
+<p class="p2 w500">이렇듯 <span class="span2">모든 동물실험의 결과는 확실시할 수 없다.</span> 그래도 동물실험을 통하여 인간에게 질병 치료제와 신약 등
+<span class="span2">많은 도움을 준 것은 사실</span>
+</p>
+</div>
+
+
+
+
+
+
+
+		
+<footer>
+ <p class="p9">Copyright K.Y.J Design All Rights Reserved.
+ </p>
+ <p class="p10">ECopyright K.Y.J 
+ </p>
+</footer> 
+
+<script>
+
+<!-- Slideshow 시작-->
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("dogSlides");
+  var dots = document.getElementsByClassName("circleC");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" circle_blue", "");
+  }
+  
+  
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " circle_blue";
+}
+
+ <!-- Slideshow 끝-->
+
+
+</script>
+
+
+</body>
+
+
+
+</html>

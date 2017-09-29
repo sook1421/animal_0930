@@ -1,0 +1,422 @@
+body {
+      width:1004px;
+	  margin:0px auto;
+	  background-color:#f2f2f2;
+	  color:gray;
+	 
+	  }
+@font-face {
+      font-family:NanumGothic;
+      src:url('NanumGothic.woff');
+}
+	  
+
+	  
+.logo {
+		
+			   
+			  text-align:center;
+			   padding:20px 0px;
+			   background-color:white;
+			   
+			   }
+	   
+nav {
+     
+	 text-align:center;
+	 background-color:white;
+	 padding:10px 0px;
+	 }
+
+
+.button { color:gray;
+         font-family:NanumGothic;
+		 text-align:center;
+         text-decoration:none;
+         padding:0px 40px;
+         font-size:18px;
+		 font-weight:bold;
+		 }
+		
+		 
+
+		.button:hover {
+						color:#003366;
+					    
+					   }		 
+		
+.button_b {      color:#78A2D5;
+				 font-family:NanumGothic;
+				 text-align:center;
+				 text-decoration:none;
+				 padding:0px 40px;
+				 font-size:18px;
+				 font-weight:bold;
+				 
+				
+         } 
+		 
+
+	
+	
+
+
+.main_img {position:relative; 
+          height:613px;
+		  background-image:url('img_home/mouse_door.png');}		 
+	  
+.survey_t { position:absolute;
+	       width:480px;
+           color:white;
+		   font-size:17px;
+		   font-weight:bold;
+          text-align:justify;
+		  text-shadow:1px 1px 1px #333;
+	    
+         top:60%;
+		 left:50%;
+		 transform:translate(-50%,0%);}
+.survey_span {font-size:28px}
+
+
+		 
+.bgw60 {background-color:white;
+      padding:60px 60px;
+	  overflow:hidden;
+	  margin:0px auto;
+	  
+	 
+	  
+  }
+	  
+.p1 {color:#404040;
+    font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	margin:0px;
+	padding:0px 0px 25px 0px;}
+	
+.p2 {
+    
+     text-align:justify;
+	 margin:10px auto;
+	 font-weight:bold;
+	 
+	 }
+
+.w250 {width:250px;}
+.w390 {width:390px;}	 
+.w750 {width:750px;}
+.w650 {width:650px;}
+.w500 {width:500px;}
+	 
+.padding260 {padding-left:260px;}
+	 
+.bgb {background-color:#e6faff;
+      padding:60px 82px;}
+	  
+.img_1 {margin:20px 10px;
+        width:190px;
+		height:190px;
+        transition:1s;
+	   }
+.img_1:hover {transform:scale(1.2);}
+	
+
+        	
+
+.round {border:1px solid #78A2D5;
+	 
+	 border-radius:45px;
+     width:400px;
+	 margin:0px auto;
+	
+	 }
+
+.p3 {color:#78A2D5;
+     font-size:60px;
+	 font-weight:bold;
+	 text-align:center;
+	 margin:0px;
+	 
+	 }
+.span1 {font-size:24px;}
+
+
+
+
+	  
+ 
+
+.p4 {
+     font-size:20px;
+	 font-weight:bold;
+	 margin:0px;
+	 
+	 }
+.p5 {
+     font-size:14px;
+	 font-weight:bold;
+	 margin:0px;
+	 
+	 }
+.p6 {color:#333333;
+     font-size:14px;
+	 font-weight:bold;
+	 line-height:24px;
+	 text-align:justify;
+	 
+	 }
+.box_positon { 
+              position:relative;
+			  height:450px;
+			  }
+
+			  
+.border_b {
+			position:absolute;
+			top:80px;
+			left:160px;
+			border:2px solid #70dbdb;
+            width:320px;
+		    padding:10px 20px 10px 338px;
+			z-index:0;
+			
+						
+}
+
+.img_s {box-shadow:3px 3px 15px black;
+        position:absolute;
+		top:10px;
+		left:30px;
+		z-index:1;
+		
+}	
+
+
+
+
+       
+.float-l {
+          float:left;
+		  }
+	  
+.align_c {text-align:center;}
+.padding96 {padding:50px 96px 100px;}
+
+.p7 {color:#78A2D5;
+     font-size:16px;
+	 text-align:center;
+     border-bottom:1px dotted #78A2D5;
+	 width:250px;
+	 margin:0px;
+	 padding:5px 0px;
+	 }
+	 
+.p8 {color:#333333;
+     font-size:12px;
+	 text-align:justify;
+	 width:200px;
+	 margin:0px;
+	 padding: 10px 25px;
+	 
+	 
+	 }
+.span2 {color:#78A2D5;} 
+
+footer {height:82px;
+        
+        background-image:url('copyright.png');
+        
+}
+		.p9 {color:white;
+			font-size:12px;
+			font-family:Dotum;
+			line-height:82px;
+			padding-left:700px;
+			margin:0px;
+			
+			}
+		.p10 {color:#bfbfbf;
+			font-size:8px;
+			font-family:Dotum;
+			
+			padding:7px 0px 0px 70px;
+			margin:0px;
+			
+			}
+			
+
+/* slider styles 시작 */
+
+			
+			.survey{ position:absolute;
+							top:83%;
+							left:50%;
+							transform:translate(-50%,0);
+							text-align:center;
+							
+							width:830px;
+							}
+			.survey_p_s {position:absolute;
+			           top:20%;
+					   left:50%;
+					   transform:translate(-50%,0);
+					   width:800px;}
+							
+			/* 설문 5단계 간격 */				
+			.range_v {width:200px;
+					  display:inline-block;
+					  text-align:left;
+					  color:white;
+					  font-size:12px;
+			}
+
+			.w_100 {width:100px;}
+			.right {width:126px;
+					 text-align:right;}
+							
+
+			/* range 속성 styles */
+							
+			.slider {
+					-webkit-appearance:none;  /*크롬 기본 속성 none*/
+				   
+				   background-image:url('track.png');
+				   width:800px;
+				   margin-left:15px;
+				   height:7px;
+				   border-radius:10px;
+				   outline:none;
+				   box-shadow:1px 1px 1px #333;
+				  
+				  
+				  
+			}
+
+			/* animate: 0.2s; */
+			.slider::-webkit-slider-track {
+				   
+			  
+			}
+
+			.slider::-webkit-slider-thumb {
+			   -webkit-appearance:none; 
+				width: 20px;
+				height: 20px;
+				box-shadow:1px 1px 1px black;
+				background:#f0f0f0;
+				border-radius:3px;
+				cursor: pointer;
+			}
+
+/* slider styles 끝 */
+			
+/* sub-page History */
+
+.p11 {color:white;
+      background-color:#78A2D5;
+	  margin:0px;
+      padding:10px 0px 10px 100px;	  
+			}
+
+
+
+/* sub-page Animals */
+
+.bar_bg {background-image:url('img_animals/bar.png');
+        height:95px;
+		padding:0px 80px;
+        }
+.animals_padding {padding:18px 76px;}
+.animals_padding:hover {opacity:0.5;}
+
+
+
+
+.p12 {color:#78A2D5;
+      width:176px;
+	  }
+	  
+.padding0 {padding:0px;}  
+
+
+.box_padding {padding:0px 55px 0px 16px;}
+.img_padding {padding:35px 0px 0px 55px;} 
+
+.font11 {font-size:11px;}
+
+.p13 {color:#333333;
+      font-size:20px;
+	  font-weight:bold;
+	  
+	  }
+	  
+.w240 {width:240px;text-align:justify;padding-bottom:50px;}
+
+	  
+.align_l {text-align:left;}
+
+/* sub-page Dog */
+
+.dog_positon{position:relative;height:684px;}
+
+.dog-arrow:hover {padding:10px;
+                  background-color:black;}
+
+.arrow-left{position:absolute;top:50%;left:5%;transform:translate(0%,-50%);cursor:pointer;}
+.arrow-right{position:absolute;top:50%;right:5%;transform:translate(0%,-50%);cursor:pointer;}
+
+
+                 
+				 
+				/* 점 버튼 시작 */
+
+.circle_button {width:12px;
+                height:12px;
+				
+				margin:0px 1px;
+	            border-radius:50%;
+				border:none;
+				opacity:0.2;
+				cursor:pointer;
+				outline:none;   /*파란색 테두리 없애기*/
+		        }
+				
+				
+.circle_button:hover {background-color:#78A2D5;
+                      opacity:1;}	
+
+.circle_blue {
+	       background-color:#78A2D5;
+		   opacity:1;
+           }		
+
+				
+.circle_position {position:absolute;left:50%;bottom:30px;transform:translate(-50%,0%);}
+          
+  		  /* 점 버튼 끝 */
+
+				
+				
+	  
+/* sub-page Solution */
+
+
+.font50 {font-size:50px;}
+
+.s_positon{position:relative;height:744px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
